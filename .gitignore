@@ -10,3 +10,6 @@
 *.swo
 .DS_Store
 Thumbs.db
+
+/.claude/
+.phpunit.result.cache
