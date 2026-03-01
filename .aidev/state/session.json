@@ -1,16 +1,19 @@
 {
-  "current_fase": "planning",
-  "current_sprint": null,
+  "current_fase": "sprint-1-2",
+  "current_sprint": "1.2",
   "current_platform": "design-system-studio",
   "current_stack": "laravel-12-livewire-4",
   "language": "pt-BR",
-  "maturity": "greenfield",
-  "style": "",
+  "maturity": "in_progress",
   "initialized_at": "2026-02-28T23:34:46-03:00",
-  "updated_at": "2026-02-28T23:45:00-03:00",
-  "project_status": "planning",
+  "updated_at": "2026-03-01T00:00:00-03:00",
+  "project_status": "in_progress",
   "total_features": 106,
-  "completed_features": 0,
+  "completed_features": 9,
+  "sprint_1_1_done": true,
+  "infra_ready": true,
+  "infra_notes": "Docker (PHP 8.4-fpm + nginx:alpine + postgres:17) na raiz. Laravel 12 + Livewire 4.2.1 instalados.",
   "current_phase": "Fase 1: Foundation",
-  "next_action": "Iniciar implementação das migrations e models"
+  "current_sprint_goal": "Models de domínio com UUID, relacionamentos e versionamento",
+  "next_action": "Implementar models 1.2.1 a 1.3.3: DesignSystem, DesignSystemVersion, Component, Token, Theme"
 }

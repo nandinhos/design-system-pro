@@ -4,12 +4,13 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **Status** | Planejamento |
-| **Fase Atual** | Foundation |
+| **Status** | Em Progresso |
+| **Fase Atual** | Sprint 1.1 - Migrations |
 | **Total Features** | 106 |
 | **Concluídas** | 0 |
-| **Em Progresso** | 0 |
-| ** backlog** | 106 |
+| **Em Progresso** | 9 (Sprint 1.1 migrations) |
+| **Backlog** | 106 |
+| **Infra** | Docker + PHP 8.4 + PostgreSQL 17 + Livewire 4.2.1 prontos |
 
 ---
 

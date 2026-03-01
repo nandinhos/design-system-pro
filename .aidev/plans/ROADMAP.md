@@ -22,27 +22,24 @@ Plataforma SaaS completa para criação, gerenciamento e exportação de Design 
 
 ### 📅 SPRINT 1.1: Foundation - Migrations e Banco
 **Objetivo:** Criar estrutura de banco de dados completa
-**Status:** 🔴 Não iniciado
+**Status:** ✅ Concluído
 
 #### Funcionalidades:
 
 ##### 1.1.1 a 1.1.9 - Migrations do Sistema
 **Prioridade:** 🔴 CRÍTICA
-**Status:** 🟡 Não iniciado
-
-**Requisitos de Negócio:**
-- Tabelas: design_systems, design_system_versions, components, component_variants, component_instances, tokens, themes, exports, audit_logs
+**Status:** ✅ Concluído — executadas em PostgreSQL 17
 
 **Requisitos Técnicos:**
-- [ ] 1.1.1 - Migration design_systems
-- [ ] 1.1.2 - Migration design_system_versions  
-- [ ] 1.1.3 - Migration components
-- [ ] 1.1.4 - Migration component_variants
-- [ ] 1.1.5 - Migration component_instances
-- [ ] 1.1.6 - Migration tokens
-- [ ] 1.1.7 - Migration themes
-- [ ] 1.1.8 - Migration exports
-- [ ] 1.1.9 - Migration audit_logs
+- [x] 1.1.1 - Migration design_systems
+- [x] 1.1.2 - Migration design_system_versions
+- [x] 1.1.3 - Migration components
+- [x] 1.1.4 - Migration component_variants
+- [x] 1.1.5 - Migration component_instances
+- [x] 1.1.6 - Migration tokens
+- [x] 1.1.7 - Migration themes
+- [x] 1.1.8 - Migration exports
+- [x] 1.1.9 - Migration audit_logs
 
 ---
 

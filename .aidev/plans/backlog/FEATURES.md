@@ -10,15 +10,15 @@ Plataforma completa para criação, gerenciamento e exportação de Design Syste
 
 ### 1.1 Migrations e Estrutura de Banco de Dados
 
-- [ ] **1.1.1** Criar migration para tabela `design_systems` com campos: id (uuid), name, slug, description, current_version_id, is_active, created_by, timestamps
-- [ ] **1.1.2** Criar migration para tabela `design_system_versions` com campos: id (uuid), design_system_id, version, changelog, snapshot (jsonb), is_published, timestamps
-- [ ] **1.1.3** Criar migration para tabela `components` (catálogo global) com campos: id, name, slug, category, description, base_schema (jsonb), preview_template, blade_path, version, is_core, timestamps
-- [ ] **1.1.4** Criar migration para tabela `component_variants` com campos: id, component_id, name, schema (jsonb), timestamps
-- [ ] **1.1.5** Criar migration para tabela `component_instances` com campos: id, design_system_id, component_id, identifier, config_json, is_active, timestamps
-- [ ] **1.1.6** Criar migration para tabela `tokens` com campos: id, design_system_id, category, path, value, type, is_global, timestamps
-- [ ] **1.1.7** Criar migration para tabela `themes` com campos: id, design_system_id, name, config_json, is_default, timestamps
-- [ ] **1.1.8** Criar migration para tabela `exports` com campos: id, design_system_id, version_id, type, content (longtext), timestamps
-- [ ] **1.1.9** Criar migration para tabela `audit_logs` com campos: id, design_system_id, action, payload (jsonb), created_by, timestamps
+- [x] **1.1.1** Criar migration para tabela `design_systems` com campos: id (uuid), name, slug, description, current_version_id, is_active, created_by, timestamps
+- [x] **1.1.2** Criar migration para tabela `design_system_versions` com campos: id (uuid), design_system_id, version, changelog, snapshot (jsonb), is_published, timestamps
+- [x] **1.1.3** Criar migration para tabela `components` (catálogo global) com campos: id, name, slug, category, description, base_schema (jsonb), preview_template, blade_path, version, is_core, timestamps
+- [x] **1.1.4** Criar migration para tabela `component_variants` com campos: id, component_id, name, schema (jsonb), timestamps
+- [x] **1.1.5** Criar migration para tabela `component_instances` com campos: id, design_system_id, component_id, identifier, config_json, is_active, timestamps
+- [x] **1.1.6** Criar migration para tabela `tokens` com campos: id, design_system_id, category, path, value, type, is_global, timestamps
+- [x] **1.1.7** Criar migration para tabela `themes` com campos: id, design_system_id, name, config_json, is_default, timestamps
+- [x] **1.1.8** Criar migration para tabela `exports` com campos: id, design_system_id, version_id, type, content (longtext), timestamps
+- [x] **1.1.9** Criar migration para tabela `audit_logs` com campos: id, design_system_id, action, payload (jsonb), created_by, timestamps
 
 ### 1.2 Models de Domínio
 
