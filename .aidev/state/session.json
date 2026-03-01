@@ -1,0 +1,16 @@
+{
+  "current_fase": "planning",
+  "current_sprint": null,
+  "current_platform": "design-system-studio",
+  "current_stack": "laravel-12-livewire-4",
+  "language": "pt-BR",
+  "maturity": "greenfield",
+  "style": "",
+  "initialized_at": "2026-02-28T23:34:46-03:00",
+  "updated_at": "2026-02-28T23:45:00-03:00",
+  "project_status": "planning",
+  "total_features": 106,
+  "completed_features": 0,
+  "current_phase": "Fase 1: Foundation",
+  "next_action": "Iniciar implementação das migrations e models"
+}
