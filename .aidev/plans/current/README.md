@@ -8,6 +8,8 @@
 
 *Nenhuma sprint em execução no momento.*
 
+Última concluída: **Sprint 2.1 — Component Registry Engine** (2026-03-01)
+
 ---
 
 ## 📝 Como iniciar uma sprint
@@ -37,9 +39,9 @@ Quando uma sprint for concluída:
 ## 📊 Status
 
 - **Sprint atual:** Nenhuma
-- **Fase:** -  
-- **Progresso:** 0%
+- **Fase:** —
+- **Progresso:** —
 
 ---
 
-*Última atualização: *
+*Última atualização: 2026-03-01*

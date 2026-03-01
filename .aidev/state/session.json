@@ -1,6 +1,6 @@
 {
-  "current_fase": "sprint-1-2",
-  "current_sprint": "1.2",
+  "current_fase": "entre-sprints",
+  "current_sprint": null,
   "current_platform": "design-system-studio",
   "current_stack": "laravel-12-livewire-4",
   "language": "pt-BR",
@@ -9,11 +9,16 @@
   "updated_at": "2026-03-01T00:00:00-03:00",
   "project_status": "in_progress",
   "total_features": 106,
-  "completed_features": 9,
+  "completed_features": 51,
   "sprint_1_1_done": true,
+  "sprint_1_2_done": true,
+  "sprint_1_3_done": true,
+  "sprint_2_1_done": true,
   "infra_ready": true,
   "infra_notes": "Docker (PHP 8.4-fpm + nginx:alpine + postgres:17) na raiz. Laravel 12 + Livewire 4.2.1 instalados.",
-  "current_phase": "Fase 1: Foundation",
-  "current_sprint_goal": "Models de domínio com UUID, relacionamentos e versionamento",
-  "next_action": "Implementar models 1.2.1 a 1.3.3: DesignSystem, DesignSystemVersion, Component, Token, Theme"
+  "current_phase": "Fase 2: Component Registry Engine",
+  "current_sprint_goal": null,
+  "next_action": "Planejar Sprint 2.2 ou Sprint 3.1: TokenService",
+  "last_completed_sprint": "2.1",
+  "last_commit": "3cd6ae6"
 }
