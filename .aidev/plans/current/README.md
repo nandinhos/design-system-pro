@@ -16,7 +16,7 @@
 
 Quando uma feature for priorizada para execução:
 
-1. **Copiar** ou linkar a feature de `../features/` para esta pasta
+1. **Mover** (`mv`) o arquivo de `../features/` para esta pasta — nunca copiar (cp)
 2. **Definir** sprint no ROADMAP.md
 3. **Criar** `sprint-status.json` em `.aidev/state/`
 4. **Atualizar** `unified.json` com tasks

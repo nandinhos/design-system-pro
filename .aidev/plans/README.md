@@ -36,6 +36,11 @@ history/YYYY-MM/ (arquivado)
 4. **History**: Arquivado cronologicamente (YYYY-MM)
 5. **Archive**: Documentação, templates, referências
 
+### Protocolo de transição (OBRIGATÓRIO — usar `mv`, nunca `cp`):
+- `features/ → current/`: `mv .aidev/plans/features/ARQUIVO.md .aidev/plans/current/`
+- `current/ → history/YYYY-MM/`: `mv .aidev/plans/current/ARQUIVO.md .aidev/plans/history/YYYY-MM/sprint-N-descricao-completed.md`
+- Arquivo deve existir **em apenas uma pasta por vez**
+
 ---
 
 ## 📊 Status Atual
